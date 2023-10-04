@@ -1,0 +1,48 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar{
+    background-color: #344D67;
+    border-bottom: 3px solid #6ECCAF;
+}
+
+.toggler{
+    color: #6ECCAF !important;
+}
+
+.navbar-brand {
+    color: #6ECCAF;
+}
+
+.navbar-brand:hover {
+    color: #50da11;
+    transition: all .3s;
+}
+
+.nav-link{
+    color: #6ECCAF;
+}
+
+.active{
+    background-color: #6ECCAF;
+    color: #344D67;
+}
+
+.inactive{
+    color: #6ECCAF;
+    background-color: #344D67;
+}
+
+.inactive:hover{
+    background-color: #6ECCAF;
+    color: #344D67;
+}
+
+.rick{
+    color: #6ECCAF;
+}
+
+    

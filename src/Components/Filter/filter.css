@@ -1,0 +1,32 @@
+.filters-container{
+    background-color: #344D67;
+    width: 15%;
+}
+
+.filters-text{
+    color: #6ECCAF;
+    background-color: #344D67;
+}
+
+.form-check-input:checked{
+    background-color: #6ECCAF;
+}
+
+.filters-container:checked{
+    border: 5px #6ECCAF solid;
+    
+}
+
+@media (max-width: 992px) {
+    .filters-container{
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+    }
+
+    .filters{
+        display: flex;
+        flex-direction: column;
+    }
+  }

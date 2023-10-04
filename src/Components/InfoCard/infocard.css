@@ -1,0 +1,41 @@
+.column-info{
+    background-color: #051a30;
+    width: 300px;
+    
+}
+.info-card{
+    
+    color: whitesmoke;
+}
+
+.list-group-item:hover{
+    background-color: rgba(70, 202, 219, 0.473);
+}
+
+.btn{
+    position: relative;
+    left: 255px;
+    
+    background-color: #26bae7;
+    
+}
+
+.ah{
+    background-color: aqua;
+    color: black;
+    
+    
+}
+.m-2{
+    position:relative;
+    left: 260px;
+    background-color: aqua;
+    color: black;
+    
+
+
+}
+.list-group-item{
+    background-color: #051a30;
+
+}

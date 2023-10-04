@@ -1,0 +1,42 @@
+.main-container{
+    animation: cardStart 0.3s ease 0s 1 normal forwards;
+    z-index: 0;
+}
+
+.contact-main{
+    background-color: #344d67e5;
+}
+
+.contact-title{
+    color: #6ECCAF;
+}
+.form-label{
+    color: #6ECCAF;
+}
+
+.form-control:focus{
+    background-color: #6ECCAF;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.btn-send{
+    background-color: #6ECCAF;
+}
+
+.btn-send:hover{
+    border: 1px solid #ffffff;
+    background-color: #6ECCAF;
+    transition: border .3s;
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        margin: 0 !important;
+    }
+
+    .contact-main{
+        
+        margin: 10px !important;
+    }
+}

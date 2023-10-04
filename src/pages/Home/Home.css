@@ -1,0 +1,55 @@
+
+.home-header{
+    background-color: #ffffffe6;
+    color: #344D67;
+    width: 45vw;
+    min-height: 84vh;
+    animation: cardStart 0.3s ease 0s 1 normal forwards;
+}
+
+.home-title{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.home-subtitles{
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.home-buttons{
+    background-color: #344D67;
+    color: #6ECCAF;
+    font-size: 18px;
+    border-style: none;
+    text-decoration: none;
+}
+
+.home-buttons:hover{
+    background-color: #6ECCAF;
+    color: #344D67;
+    cursor: pointer;
+}
+
+@keyframes cardStart {
+    0% {
+        opacity: 0;
+        transform: scale(0.6);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+@media (max-width: 768px) {
+    body{
+        background-position: -90vw;
+    }
+    
+    .home-header{
+        width: 100vw;
+    }
+  }

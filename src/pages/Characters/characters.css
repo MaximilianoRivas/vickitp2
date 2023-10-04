@@ -1,0 +1,38 @@
+.alert{
+    width: 98%;
+    background-color: #235792;
+    text-align: justify;
+  
+}
+.filtro{
+    
+    margin: 30px;
+    color: #235792;
+}
+
+.maxi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+    
+.p{
+    
+    height: 40px;
+    color:aqua;
+    background-color: #235792;
+    font-size: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+   
+   
+}
+.alert {
+    background-color: #6b9ad1;
+}
+
+
+
+
